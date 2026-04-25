@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "PravRaha",
+    "category": "Autonomous Revenue Infrastructure",
+    "description": "PravRaha helps B2B companies generate pipeline by detecting buying signals, researching accounts, identifying decision-makers, and executing personalized outreach campaigns.",
+    "website": "https://www.pravraha.com",
+    "location": "Ranchi, Jharkhand, India"
+  },
+ 
+  "product": {
+    "name": "PravRaha Platform",
+    "type": "B2B Sales Intelligence and Autonomous Outreach Platform",
+    "capabilities": [
+      "Buying signal detection",
+      "Account intelligence",
+      "Buyer discovery",
+      "Personalized outreach campaigns",
+      "Pipeline generation"
+    ]
+  },
+ 
+  "target_customers": [
+    "B2B SaaS companies",
+    "Sales-led startups",
+    "Outbound GTM teams",
+    "Growth-stage technology companies"
+  ],
+ 
+  "value_proposition": "PravRaha turns buying signals into qualified meetings by combining B2B data intelligence, account research, and personalized outreach into one revenue infrastructure platform."
+}
