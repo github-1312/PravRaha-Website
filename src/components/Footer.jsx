@@ -212,7 +212,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-2">
             <a
-              href="/privacy-policy.pdf"
+              href="/Privacy-Policy.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black/70 no-underline hover:text-black transition-colors duration-200"
@@ -223,7 +223,7 @@ export default function Footer() {
             <span>·</span>
 
             <a
-              href="/terms-and-conditions.pdf"
+              href="/Terms-and-Conditions.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black/70 no-underline hover:text-black transition-colors duration-200"
