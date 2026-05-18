@@ -100,7 +100,7 @@
 //           style={{ borderColor: '#AAB3B8' }}
 //         >
 //           <span>&copy; 2025 PravRaha · Ranchi · Arizona</span>
-//           <span>Privacy · Security · GDPR · SOC 2 (in progress)</span>
+//           <span>Privacy Policy · Terms & Conditions · GDPR · SOC 2 (in progress)</span>
           
 //         </div>
 //       </div>
@@ -115,6 +115,7 @@ function FooterCol({ title, links }) {
       <h4 className="font-mono text-[11px] text-black tracking-[0.14em] uppercase mb-5 font-bold">
         {title}
       </h4>
+
       <ul className="list-none flex flex-col gap-3">
         {links.map(([label, to]) => (
           <li key={label}>
@@ -141,8 +142,9 @@ export default function Footer() {
       }}
     >
       <div className="site-container">
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-12 mb-16">
-          
+
           {/* Logo + Description */}
           <div>
             <Link
@@ -160,7 +162,9 @@ export default function Footer() {
               className="text-sm text-black/70 font-normal mt-4 max-w-[280px]"
               style={{ lineHeight: 1.6 }}
             >
-              Autonomous revenue infrastructure for modern B2B. Built by operators who closed $18M ARR the old way so you don't have to.
+              Autonomous revenue infrastructure for modern B2B.
+              Built by operators who closed $18M ARR the old way
+              so you don't have to.
             </p>
           </div>
 
@@ -208,38 +212,33 @@ export default function Footer() {
           className="pt-8 border-t flex justify-between font-mono text-[11px] text-black/70 tracking-[0.08em] flex-wrap gap-4"
           style={{ borderColor: '#AAB3B8' }}
         >
-          <span>&copy; 2025 PravRaha · Ranchi · Arizona</span>
 
-          <div className="flex items-center gap-2">
-            <a
-              href="/Privacy-Policy.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black/70 no-underline hover:text-black transition-colors duration-200"
+          <span>
+            &copy; 2025 PravRaha · Ranchi · Arizona
+          </span>
+
+          <span className="flex gap-3 flex-wrap items-center">
+
+            <Link
+              to="/privacy-policy"
+              className="hover:text-black transition-colors duration-200"
             >
               Privacy Policy
-            </a>
+            </Link>
 
             <span>·</span>
 
-            <a
-              href="/Terms-and-Conditions.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black/70 no-underline hover:text-black transition-colors duration-200"
+            <Link
+              to="/terms-conditions"
+              className="hover:text-black transition-colors duration-200"
             >
               Terms & Conditions
-            </a>
+            </Link>
 
-            <span>·</span>
+            <span>· GDPR · SOC 2 (in progress)</span>
 
-            <span>GDPR</span>
+          </span>
 
-            <span>·</span>
-
-            <span>SOC 2 (in progress)</span>
-          </div>
-          
         </div>
       </div>
     </footer>
